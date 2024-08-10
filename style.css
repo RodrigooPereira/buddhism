@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Reforma";
+    src: url("fonts/Reforma1918-BlancaItalica.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Reformagris";
+    src: url("fonts/Reforma2018-Gris.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Renner";
+    src: url("fonts/Renner_\ 400\ Book.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    z-index: 10;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+nav a:hover { 
+    color: #f16f23;
+}
+
+#first-section__home {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/b4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#first-section__wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+#first-text__box {
+    width: 30vw;
+    margin-left: 15vw;
+}
+
+#first-text__box h1 {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 3.7rem;
+    margin-bottom: 0.5rem;
+}
+
+#first-text__box p {
+    font-size: 1.2rem;
+    font-family: "Renner";
+}  
+
+/* SECOND SECTION */
+
+#second-section__home {
+    padding: 7.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-section__wrapper {
+    display: flex;
+}
+
+#second-text__box .second-quote {
+    font-family: "Reforma";
+    padding: 1rem 0;
+    margin-left: 3rem;
+    width: 25vw;
+    font-style: italic;
+    font-size: 2.2rem;
+    color: #282828;
+}
+
+#second-text__box #quote-author {
+    color: #f16f23;
+    margin: 1rem 0 0 3rem;
+    letter-spacing: 0.1rem;
+}
+
+#quote-author span {
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+/* THIRD SECTION */
+
+#third-section__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 100vw;
+    background-image: url('images/b2.png');
+}    
+
+#third-section__box {
+    display: flex;
+    gap: 2rem;
+}
+
+.third-image__box {
+    width: 13vw;
+    height: auto;
+}
+
+.third-image__box img {
+    width: 100%;
+}
+
+.third-text__box {
+    margin-top: 1rem;
+}
+
+.third-text__box a {
+    font-family: "Reformagris";
+    text-decoration: none;
+    color: #282828;
+    font-size: 1.5rem;
+    font-weight: 400
+}
+
+.third-text__box a:hover {
+    color: #f16f23;
+    transition: 0.5s;
+}
+
+/* FOURTH SECTION */
+
+#fourth-seciton__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth-section__box {
+    padding: 5rem 0;
+    width: 57.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth-text__box {
+    margin-right: 10rem;
+}
+
+#fourth-text__box h2 {
+    font-family: "Reformagris";
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #282828;
+    margin-bottom: 1rem;
+}
+
+#fourth-text__box p, #fifth-gray__textbox p {
+    font-family: "Renner";
+    color: #7A7A7A;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+}
+
+#meditation-quote__box {
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+#meditation-quote__textbox {
+    width: 45%;
+    margin-left: 5%;
+}
+
+#meditation-quote__textbox p {
+    color: #282828d0;
+    font-size: 1.3rem;
+}
+
+p#meditation-quote__author {
+    color: #f16f23 ;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+p#meditation-quote__author span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#meditation-quote-image {
+    width: 40%;
+}
+
+#meditation-quote-image img {
+    max-width: 100%;
+}
+
+#fourth-image__box {
+    width: 80vw;
+}
+
+#fourth-image__box img {
+    max-width: 100%;
+}
+
+/* FIFTH SECTION */
+
+#fifth-section__home {
+    background-image: url('images/b2.png');
+}
+
+#fifth-gray__box {
+    display: flex;
+    justify-content: center;
+}
+
+#fifth-gray__textbox {
+    padding: 5rem 0 22.5rem 0;
+    text-align: center;
+    width: 42.5rem;
+}
+
+#fifth-gray__textbox h2 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-family: "Reformagris";
+}
+
+#fifth-video__box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: auto;
+    height: 35rem;
+    position: absolute;
+    top: -17.5rem;
+}
+
+#playvideo {
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: -3.25rem;
+    border: none;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #f16f23;
+}
+
+#playvideo:hover {
+    background-color: #fff;
+    color: #282828;
+    transition: 0.5s;
+}
+
+#fifth-black__box {
+    background-color: #282828;
+    height: 22.5rem;
+    width: 100vw;
+}
+
+/* NEWSLETTER SECTION */
+
+#newsletter-section__box {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(images/background-news.jpg);
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#newsletter-content__box {
+    padding: 10rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    font-family: "Bilbo Swash Caps";
+    font-size: 2.3rem;
+}
+
+#newsletetr-text__box {
+    width: 37.5vw;
+}
+
+#newsletter-content__box h2 {
+    font-family: "Oswald";
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0.2rem 0 1rem 0;
+}
+
+#newsletter-content__box p {
+    line-height: 1.6rem;
+}
+
+#email-input__box {
+    margin-top: 3rem;
+    position: relative;
+}
+
+#email-input__box input {
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    width: 37.5vw;
+}
+
+#email-input__box input::placeholder {
+    color: #7a7a7aa9;
+}
+
+#email-input__box button {
+    right: -0.5rem;
+    position: absolute;
+    background-color: #f16f23;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    color: #ffffffdc;
+    cursor: pointer;
+}
+
+#email-input__box button:hover {
+    transition: 0.5s;
+    background-color: #282828;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+#portfolio-link__footer {
+    text-decoration: none;
+    color: #fff;
+}
+
+#portfolio-link__footer:hover {
+    color: #f16f23;
+    transition: 0.5s;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    header {
+        height: 7vh;
+    }
+
+    nav {
+        font-size: 1.2rem;
+    }
+    
+    #first-section__home {
+        background: linear-gradient(rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.38)), url(images/b-mobile.jpg);
+        background-size: cover;
+    }
+    
+    #first-section__wrapper {
+        width: 100vw;
+        justify-content: center;
+    }
+    
+    #first-text__box {
+        text-align: center;
+        margin-left: 0;
+        width: 80vw;
+    }
+    
+    #first-text__box h1 {
+        font-size: 3.5rem;
+        line-height: 4.7rem;
+    }
+    
+    #first-text__box p {
+        font-size: 1.2rem;
+    }  
+
+    /* SECOND SECTION */
+
+    #second-section__home {
+        padding: 5rem 0;
+    }
+    
+    #second-section__wrapper {
+        flex-direction: column;
+    }
+
+    #second-image__box {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    #second-image__box img {
+        max-width: 100%;
+    }
+    
+    #second-text__box .second-quote {
+        margin-left: 0;
+        width: 80vw;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #second-text__box #quote-author {
+        margin: 1rem 0 0 0;
+        text-align: center;
+    }
+
+    /* THIRD SECTION */
+
+    #third-section__home {
+        height: auto;
+        padding: 2.5rem 0;
+    }    
+
+    #third-section__box {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .third-image__box {
+        width: 60vw;
+    }
+
+    .third-text__box {
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    /* FOURTH SECTION */
+    
+    #fourth-section__box {
+        padding: 3rem 0;
+        width: 80vw;
+        flex-direction: column;
+    }
+    
+    #fourth-text__box {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    #fourth-text__box h2 {
+        font-size: 3rem;
+    }
+    
+    #fourth-text__box p, #fifth-gray__textbox p {
+        font-size: 1.1rem;
+    }
+    
+    #meditation-quote__box {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #meditation-quote__textbox {
+        width: 80vw;
+        margin:  0.5rem 0 0 0;
+    }
+    
+    #meditation-quote__textbox p {
+        color: #282828d0;
+        font-size: 1.1rem;
+    }
+    
+    p#meditation-quote__author {
+        color: #f16f23;
+        margin: 0rem 0 1rem 0;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+    }
+    
+    p#meditation-quote__author span {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    #meditation-quote-image {
+        width: 80vw;
+    }
+
+    /* FIFTH SECTION */
+    
+    #fifth-gray__textbox {
+        padding: 3rem 0 0 0;
+        width: 80vw;
+    }
+    
+    #fifth-gray__textbox h2 {
+        font-size: 3rem;
+    }
+    
+    #fifth-video__box {
+        align-items: center;
+        padding: 1rem 0 3rem 0;
+    }
+    
+    video {
+        width: 95vw;
+        height: auto;
+        position: relative;
+        top: 0;
+    }
+    
+    #playvideo {
+        font-size: 1rem;
+        position: absolute;
+        top: auto;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    #fifth-black__box {
+        display: none;
+    }
+
+    /* NEWSLETTER SECTION */
+    
+    #newsletter-content__box {
+        padding: 3rem 0 3rem 0;
+    }
+    
+    .newsletter {
+        font-family: "Bilbo Swash Caps";
+        font-size: 2.3rem;
+    }
+    
+    #newsletetr-text__box {
+        width: 80vw;
+    }
+    
+    #newsletter-content__box h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    
+    #email-input__box {
+        margin-top: 3rem;
+        position: relative;
+    }
+    
+    #email-input__box input {
+        font-size: 1.1rem;
+        width: 80vw;
+    }
+    
+    #email-input__box button {
+        font-size: 1.1rem;
+        padding: 1rem 1.25rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 1.5rem 0;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+}
